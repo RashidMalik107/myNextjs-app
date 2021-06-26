@@ -1,4 +1,10 @@
+
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+@import url('./BlockBoxes.css');
+@import url('./BlockCards.css');
+@import url('./buttons.css');
 
 html {
   scroll-behavior: smooth;
