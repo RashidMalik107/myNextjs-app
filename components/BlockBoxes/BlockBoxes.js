@@ -4,10 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 
-
-
-import { blocksData } from "../static";
-
+import { blocksData } from "./data";
 
 const BlockBoxes = () => {
     return (

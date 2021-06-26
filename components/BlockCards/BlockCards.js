@@ -4,8 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 
-import { blocksCardData } from "../static";
-
+import { blocksCardData } from "./data";
 
 const BlockCards = () => {
     return (
