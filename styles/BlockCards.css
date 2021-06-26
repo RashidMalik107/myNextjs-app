@@ -1,0 +1,31 @@
+.cardGrid {
+    margin-top: 20px;
+}
+
+.cardGrid .paper {
+    padding: 0;
+}
+.cardGrid .upperpart {
+    display: flex;
+    flex-direction: revert;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.cardGrid .upperpart .leftsec {
+    text-align: left;
+}
+
+.cardGrid .upperpart .leftsec .title {
+    margin-right: 10px;
+}
+
+.cardGrid .upperpart .rightSec img {
+    width: 40px;
+    height: 40px;
+}
+
+.cardGrid .actions {
+    margin: 0;
+}

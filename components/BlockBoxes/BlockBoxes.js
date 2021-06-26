@@ -4,7 +4,9 @@ import Paper from '@material-ui/core/Paper';
 import EmailIcon from '@material-ui/icons/Email';
 import PhoneIcon from '@material-ui/icons/Phone';
 
-import { blocksData } from "./static";
+
+
+import { blocksData } from "../static";
 
 
 const BlockBoxes = () => {
@@ -13,7 +15,7 @@ const BlockBoxes = () => {
             <Grid container justify="center" alignItems="center" spacing={4}>
                 {blocksData.map((data) => {
                     return (
-                        <Grid item xs={3} >
+                        <Grid item lg={3} md={6} sm={6} xs={12} >
                             <Paper className="paper">
                                 <img src={data.url} />
                                 <h4 className="title">{data.name}</h4>

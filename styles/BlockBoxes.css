@@ -1,0 +1,63 @@
+.gridHolder .paper {
+    text-align: center;
+    padding: 30px 0 0 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gridHolder img {
+    width: 140px;
+    height: 140px;
+    border-radius: 140px;
+    display: block;
+    margin: 0 auto 30px;
+}
+
+.gridHolder .title {
+    margin: 0 0 10px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.gridHolder .desingation {
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #7c818c;
+    display: block;
+}
+
+.gridHolder .role {
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color: #03505c;
+    background: #d5f5f6;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+.gridHolder .actions {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid #dddd;
+}
+
+.gridHolder .actions .icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5px;
+    padding: 14px;
+    width: 50%;
+}
+
+.gridHolder .actions .icon:first-child {
+    border-right: 1px solid #dddd;
+}

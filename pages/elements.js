@@ -2,15 +2,15 @@ import Head from "next/head";
 import Container from '@material-ui/core/Container';
 import Button from "@material-ui/core/Button";
 import EmailIcon from '@material-ui/icons/Email';
-import BlockBoxes from "../components/BlockBoxes";
-import BlockCards from "../components/BlockCards";
+import BlockBoxes from "../components/BlockBoxes/BlockBoxes";
+import BlockCards from "../components/BlockCards/BlockCards";
 
 export default function ElementsPage() {
 
   return (
     <>
       <Head>
-        <title>Buttons blocks card</title>
+        <title>NextJS Assignment</title>
       </Head>
 
       <Container>

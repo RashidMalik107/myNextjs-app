@@ -1,0 +1,13 @@
+.buttonsHolder {
+    grid-gap: 40px;
+    display: flex;
+    background: #fff;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    align-items: center;
+    padding: 10px 0;
+    border-radius: 10px;
+}
